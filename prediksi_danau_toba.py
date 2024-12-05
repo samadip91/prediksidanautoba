@@ -43,7 +43,7 @@ select_date = today.strftime("%Y-%m-%d")
 gfs_url_name_1 = 'https://renderofs:AksesTerbatas2303!!!@maritim.bmkg.go.id/opendap/inaCawo/'+open_date_year+'/'+open_date_month+'/InaCAWOAtmos_'+open_date_year+open_date_month+open_date_day+'_1800.nc'
 gfs_url_name_2 = 'https://renderofs:AksesTerbatas2303!!!@maritim.bmkg.go.id/opendap/inaCawo/'+open_date_year+'/'+open_date_month+'/InaCAWOAtmos_'+open_date_year+open_date_month+open_date_day+'_1200.nc'
 gfs_url_name_3 = 'https://renderofs:AksesTerbatas2303!!!@maritim.bmkg.go.id/opendap/inaCawo/'+open_date_year+'/'+open_date_month+'/InaCAWOAtmos_'+open_date_year+open_date_month+open_date_day+'_0600.nc'
-gfs_url_name_4 = 'https://renderofs:AksesTerbatas2303!!!@maritim.bmkg.go.id/opendap/inaCawo/'+formatted_date_year+'/'+formatted_date_month+'/InaCAWOAtmos_'+open_date_year+open_date_month+open_date_day+'_0000.nc'
+gfs_url_name_4 = 'https://renderofs:AksesTerbatas2303!!!@maritim.bmkg.go.id/opendap/inaCawo/'+open_date_year+'/'+open_date_month+'/InaCAWOAtmos_'+open_date_year+open_date_month+open_date_day+'_0000.nc'
 
 url_list = [
     gfs_url_name_1,
